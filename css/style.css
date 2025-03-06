@@ -1,0 +1,15 @@
+div>h3:first-of-type  {
+    color:pink;
+}
+#greycol {
+    color:grey;
+}
+.text-box>div>p {
+    color:red;
+}
+.yellow {
+    color: yellow;
+}
+div>p:nth-last-of-type(0n+2)  {
+   color:green;
+}
