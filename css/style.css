@@ -1,15 +1,65 @@
-div>h3:first-of-type  {
-    color:pink;
+div>h3:first-of-type {
+    color: pink;
 }
+
 #greycol {
-    color:grey;
+    color: grey;
 }
+
 .text-box>div>p {
-    color:red;
+    color: red;
 }
+
 .yellow {
     color: yellow;
 }
-div>p:nth-last-of-type(0n+2)  {
-   color:green;
+
+div>p:nth-last-of-type(2) {
+    color: green;
+}
+
+
+/* Завдання 2 */
+.monday:hover {
+    color: rgb(115, 199, 233);
+}
+
+.tuesday:hover {
+    color: rgb(94, 44, 141);
+}
+
+tr:not([class="first"]) {
+    color: rgb(5, 53, 196);
+}
+
+tbody>tr:nth-child(n+5) {
+    color: yellow;
+}
+
+.first>th:nth-child(4) {
+    color: green;
+}
+
+tr:checked {
+    color: brown;
+}
+
+.seventh>td:nth-child(even) {
+    color: rgb(6, 236, 117);
+}
+
+.seventh>td:nth-child(odd) {
+    color: deeppink;
+}
+
+.sixth>td:nth-child(-n+4) {
+    color: black;
+}
+
+.fifth>td:last-child {
+    color: rgb(68, 2, 2);
+}
+
+.fifth>td:first-child {
+    color: rgb(68, 2, 2);
 }
